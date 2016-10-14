@@ -9,4 +9,4 @@ general:
 test:
   pre:
     - mkdir -p tmp/rubycritic
-    - bundle exec rubycritic --no-browser -p tmp/rubycritic/rubycritic.html lib
+    - bundle exec rubycritic --no-browser -s 90 -p tmp/rubycritic/rubycritic.html lib
