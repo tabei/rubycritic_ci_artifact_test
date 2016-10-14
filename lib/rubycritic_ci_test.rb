@@ -1,5 +1,6 @@
 require 'rubycritic_ci_test/version'
 
+# RubycriticCiTest
 module RubycriticCiTest
   class FizzBuzz
     def fizzbuzz(limit)
